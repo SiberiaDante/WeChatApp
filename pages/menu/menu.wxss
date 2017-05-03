@@ -1,0 +1,28 @@
+/* pages/menu/menu.wxss */
+
+.menu_main {
+  width: 100%;
+}
+
+.kind_list_text {
+  width: 100%;
+  float: left;
+  padding: 10rpx;
+  background: #F0F0F0;
+}
+.menu_item_main{
+  width: 100%;
+}
+.munu_item{
+  float: left;
+  width: 30%;
+  text-align: center;
+  background: #F0F0F0;
+  height: 60rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+  vertical-align: middle;
+  display: table-cell;
+  padding-top: 20rpx;
+  margin: 10rpx;
+}

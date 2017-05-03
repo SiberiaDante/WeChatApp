@@ -1,0 +1,31 @@
+{
+  "pages":[
+      "pages/menu/menu",
+    "pages/index/index",
+    "pages/menulist/menulist",
+    "pages/logs/logs"
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+     "list": [{
+      "pagePath": "pages/menu/menu",
+      "text": "菜谱",
+      "iconPath": "images/icon_component.png",
+      "selectedIconPath": "images/icon_component_HL.png"
+    },
+   {
+      "pagePath":"pages/index/index",
+      "text": "精品",
+      "iconPath": "images/icon_API.png",
+      "selectedIconPath": "images/icon_API_HL.png"
+    }]
+  },
+  "debug":true
+}

@@ -1,0 +1,15 @@
+/* pages/menulist/menulist.wxss */
+.menu_list_main{
+    width: 100%;
+    height: 60rpx;
+    float: left;
+    padding-left: 10rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+    background: #F0F0F0;
+}
+.list_item{
+    margin-top: 10rpx;
+    float: left;
+    padding-left: 10rpx;
+}

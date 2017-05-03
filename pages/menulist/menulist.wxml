@@ -1,0 +1,4 @@
+<!--pages/menulist/menulist.wxml-->
+<view class="menu_list_main" wx:for="{{menulist}}">
+    <view class="list_item">{{item.name}}</view>
+</view>

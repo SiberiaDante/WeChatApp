@@ -1,0 +1,14 @@
+
+<!--pages/menu/menu.wxml-->
+<view class="menu_main">
+  <view class="kind_list">
+    <block wx:for-items="{{data}}" wx:key="{{item.categoryinfo.ctgId}}">
+      <view class="kind_list_text">{{item.categoryInfo.name}}</view>
+      <view class="menu_item_main" wx:for="{{item.childs}}">
+        <navigator url="/pages/menulist/menulist?menu_id={{item.categoryInfo.ctgId}}&&menu_name={{item.categoryInfo.name}}">
+          <view class="munu_item">{{item.categoryInfo.name}}</view>
+        </navigator>
+      </view>
+    </block>
+  </view>
+</view>

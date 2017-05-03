@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "菜谱",
+    "navigationBarBackgroundColor": "#E22018",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#000000",
+    "navigationBarTextStyle": "white"
+}
